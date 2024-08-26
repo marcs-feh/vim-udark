@@ -64,8 +64,9 @@ call s:hiEx('SignColumn', s:cMidtone0, s:cBackground)
 call s:hiEx('ColorColumn', 'NONE', s:cMidtone0)
 call s:hi('LineNr', s:cMidtone1)
 
+call s:clear('CursorLineNr')
 call s:hiEx('CursorLine', 'NONE', 'NONE', 'NONE')
-call s:hiEx('CursorLineNr', s:cForeground, 'NONE', 'italic')
+call s:hiEx('CursorLineNr', s:cMidtone3, 'NONE', 'NONE')
 call s:hiEx('CursorLineSign', 'NONE', 'NONE')
 
 call s:link('Directory', 'Type')
