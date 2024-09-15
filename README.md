@@ -2,4 +2,5 @@
 Small VS Dark inspired theme for Vim/Neovim.
 
 # Installation
-Just drop udark.vim into `~/.vim/colors` or `~/.config/nvim/colors`.
+- Install as a regular vim plugin (Recommended). OR
+- Put udark.vim into `~/.vim/colors` or `~/.config/nvim/colors`
