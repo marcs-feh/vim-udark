@@ -1,4 +1,4 @@
-# uDark
+# μDark
 Small VS Dark inspired theme for Vim/Neovim.
 
 # Installation
