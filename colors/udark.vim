@@ -137,6 +137,7 @@ call s:hi('WarningMsg', s:cLightOrange)
 call s:hi('ErrorMsg', s:cRed)
 call s:hi('Error', s:cRed)
 
+call s:hiEx('Namespace', s:cCyan)
 call s:hi('Number', s:gNumber)
 call s:hi('Constant', s:gConstant)
 call s:hi('Boolean', s:gType)
