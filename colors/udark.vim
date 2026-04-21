@@ -12,6 +12,10 @@ let s:cForeground = '#d4d4d4'
 let s:cBackground = '#1e1e1e'
 let s:cFaded      = '#252525'
 
+if exists('g:udark_transparent') && g:udark_transparent
+	let s:cBackground = 'NONE'
+endif
+
 let s:cMidtone0 = '#3c3c3c'
 let s:cMidtone1 = '#5a5a5a'
 let s:cMidtone2 = '#787878'
